@@ -112,7 +112,7 @@ export default function Navbar() {
         >
           <FaLinkedin
             className="social"
-            size={25}
+            size={windowDimensions.width > 1500 ? 24 : 20}
             // style={{ marginRight: "2rem", marginBottom: "20px" }}
           />
         </a>
@@ -124,7 +124,7 @@ export default function Navbar() {
         >
           <FaGithub
             className="social"
-            size={25}
+            size={windowDimensions.width > 1500 ? 24 : 20}
             // style={{ marginRight: "2rem", marginBottom: "20px" }}
           />
         </a>
@@ -136,7 +136,7 @@ export default function Navbar() {
         >
           <SiLeetcode
             className="social"
-            size={25}
+            size={windowDimensions.width > 1500 ? 24 : 20}
             // style={{ marginRight: "2rem", marginBottom: "20px" }}
           />
         </a>
@@ -149,7 +149,7 @@ export default function Navbar() {
         >
           <SiCodeforces
             className="social"
-            size={25}
+            size={windowDimensions.width > 1500 ? 24 : 20}
             // style={{ marginRight: "2rem", marginBottom: "20px" }}
           />
         </a>
@@ -161,7 +161,7 @@ export default function Navbar() {
         >
           <FaInstagram
             className="social"
-            size={windowDimensions.width > 1200 ? 25 : 20}
+            size={windowDimensions.width > 1200 ? 24 : 20}
             // style={{ marginRight: "2rem", marginBottom: "20px" }}
           />
         </a>
