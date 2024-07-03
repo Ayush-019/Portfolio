@@ -21,7 +21,7 @@
   font-size: 22px;
   font-weight: 600;
   margin-top: 100px;
-  color: #f94892;
+  color: #ffaf4b;
 }
 
 .profile-photo .img {
@@ -37,7 +37,7 @@
   padding-top: 75px;
   width: 110px;
   overflow-wrap: break-word;
-  color: #f94892;
+  color: #ffaf4b;
   text-transform: uppercase;
   z-index: 0;
   font-size: 100px;
@@ -48,7 +48,7 @@
     -86deg,
     #ffe1a0 5%,
     #f67280 53%,
-    #f94892 91%
+    #ffaf4b 91%
   );
   -webkit-background-clip: text;
   -webkit-text-stroke: 4px transparent;
@@ -66,7 +66,7 @@
 }
 
 .aboutMe-text span {
-  color: #f94892;
+  color: #ffaf4b;
 }
 
 .about-container .aboutMe-text h3 {
@@ -77,8 +77,8 @@
 }
 
 .about-container .aboutMe-text .resume {
-  color: #f94892;
-  border-bottom: 2.5px solid #f94892;
+  color: #ffaf4b;
+  border-bottom: 2.5px solid #ffaf4b;
   transition: all 0.3s ease-in-out;
   display: inline-block;
   font-weight: 800;

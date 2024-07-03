@@ -9,7 +9,7 @@
   margin-top: -15px;
   padding-right: 0;
   /* background: transparent; */
-  backdrop-filter: blur(3px);
+  /* backdrop-filter: blur(3px); */
   z-index: 100;
 }
 .header .logo {
@@ -26,7 +26,7 @@
 
 .header .logo .logo-img span {
   font-weight: 600;
-  color: #f94892;
+  color: #ffaf4b;
 }
 
 .header .logo .logo-img .blink {
@@ -35,14 +35,14 @@
 
 @keyframes blink {
   0% {
-    color: #f94892;
+    color: #ffaf4b;
   }
 
   50% {
     color: transparent;
   }
   100% {
-    color: #f94892;
+    color: #ffaf4b;
   }
 }
 
@@ -67,7 +67,7 @@
   cursor: pointer;
 }
 .nav-menu li .navLink:hover {
-  color: #f94892;
+  color: #ffaf4b;
 }
 
 .nav-menu li {
@@ -75,7 +75,7 @@
 }
 
 .nav-menu li:hover {
-  color: #f94892;
+  color: #ffaf4b;
   transform: scale(1.3) rotate(270deg);
 }
 
@@ -97,7 +97,7 @@
 
 .header .social-links .social:hover {
   transform: scale(1.5);
-  fill: #f94892;
+  fill: #ffaf4b;
 }
 .social {
   margin-right: "2rem" !important;
@@ -111,7 +111,7 @@
     flex-direction: row;
     padding: 10px 20px;
     z-index: 100;
-    backdrop-filter: blur(30px);
+    /* backdrop-filter: blur(30px); */
   }
 
   .header .logo {

@@ -66,8 +66,8 @@
   border-color: white;
 }
 .btn2:hover {
-  border-color: #f94892 !important;
-  background-color: #f94892;
+  border-color: #ffaf4b !important;
+  background-color: #ffaf4b;
   bottom: 12px;
   box-shadow: 0 0 20px 1px rgba(205, 106, 139, 0.65);
 }
@@ -94,7 +94,7 @@
 
 .home .content .dynamicTitle li span {
   white-space: wrap;
-  background-image: linear-gradient(to right, #ffe1a0, #f67280, #f94892);
+  background-image: linear-gradient(to right, #ffe1a0, #f67280, #ffaf4b);
   background-clip: text;
   -webkit-text-fill-color: transparent;
   z-index: -1;
@@ -115,11 +115,12 @@
   z-index: -3;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1250px) {
   .mask .bg {
-    opacity: 40%;
+    opacity: 30%;
   }
-
+}
+@media screen and (max-width: 950px) {
   .home .content .staticTitle {
     font-size: 90px;
   }

@@ -24,7 +24,7 @@ function App() {
           mixBlendMode: "exclusion",
         }}
         innerStyle={{
-          backgroundColor: "#F94892",
+          backgroundColor: "#ffaf4b",
         }}
       />
       <div>
