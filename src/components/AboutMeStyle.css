@@ -1,8 +1,10 @@
 .about-container {
   display: flex;
+  flex-direction: column;
   margin: 80px 13vw 0 18vw;
   padding-top: 60px;
-  flex-direction: row;
+  /* flex-direction: row; */
+  gap: 50px;
 }
 .about-container .about-header {
   font-size: 50px;
@@ -11,12 +13,19 @@
   margin-bottom: 50px;
 }
 .profile-photo {
-  margin-left: 50px;
+  /* margin-left: 50px; */
   height: fit-content;
   padding: 0;
   /* width: 100%; */
 }
-
+.para-1 {
+  font-size: 22px;
+  width: 100%;
+}
+.aboutMe-text {
+  display: flex;
+  gap: 40px;
+}
 .profile-photo .heading {
   font-size: 22px;
   font-weight: 600;
@@ -28,6 +37,8 @@
   width: 100%;
   z-index: -3;
   height: 100%;
+  margin-top: 75px;
+  border-radius: 5%;
 }
 
 .about-container .name {
@@ -57,8 +68,8 @@
   color: black;
 }
 
-.about-container .aboutMe-text {
-  font-size: 18px;
+.about-container .aboutMe-text .para-2 {
+  font-size: 22px;
   font-weight: 200;
   color: #fff;
   height: fit-content;
@@ -68,7 +79,12 @@
 .aboutMe-text span {
   color: #ffaf4b;
 }
-
+.para-2 span {
+  color: #ffaf4b;
+}
+.mid-para_small span {
+  color: #ffaf4b;
+}
 .about-container .aboutMe-text h3 {
   color: #fff;
   font-size: 36px;
@@ -87,7 +103,29 @@
 .about-container .aboutMe-text .resume:hover {
   transform: scale(1.05);
 }
-
+.para-2 {
+  display: none;
+}
+.mid-para_small {
+  display: none;
+}
+@media screen and (max-width: 1800px) {
+  .para-1 {
+    font-size: 17px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1560px) {
+  .para-2 {
+    font-size: 17px;
+  }
+  .para-2 {
+    display: block;
+  }
+  .para-2_large {
+    display: none;
+  }
+}
 @media screen and (max-width: 1150px) {
   .about-container .aboutMe-text {
     font-size: 16px;
@@ -99,13 +137,32 @@
     right: 8vw;
   }
 }
-
+@media screen and (max-width: 1250px) {
+  .mid-para {
+    display: none;
+  }
+  .mid-para_small {
+    display: block;
+  }
+  .img {
+    margin-top: 0px;
+  }
+  .profile-photo {
+    height: -moz-fit-content;
+    padding: 0;
+    width: 65%;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
 @media screen and (max-width: 925px) {
   .about-container {
     flex-direction: column;
     align-items: center;
   }
-
+  .profile-photo {
+    display: none;
+  }
   .heading,
   .about-container .name {
     display: none;
@@ -114,11 +171,18 @@
   .about-container .aboutMe-text {
     text-align: center;
   }
-
+  .mid-para_small {
+    display: block;
+    text-align: center;
+  }
   .img {
     display: none;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     max-width: 400px;
+  }
+  .para-2 {
+    display: block;
+    text-align: center;
   }
 }
 

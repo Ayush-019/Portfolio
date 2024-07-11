@@ -207,3 +207,17 @@
 .bg {
   object-fit: fit;
 }
+@media screen and (max-width: 460px) {
+  .mask .bg {
+    height: 300px;
+    margin-bottom: 220px;
+    padding-left: 100px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .mask .bg {
+    height: 270px;
+    margin-bottom: 230px;
+  }
+}

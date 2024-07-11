@@ -64,7 +64,7 @@ function App() {
           projectDesc="A user-friendly restaurant app that allows customers to browse menus, place orders, and make reservations effortlessly, enhancing the dining experience with convenient and intuitive features."
           projectLink="https://github.com/Ayush-019/Restaurant_Website"
           deployedProjectLink="https://risendine007.netlify.app/"
-          projectImg={require("./images/projectRogfree.png")}
+          projectImg={require("./images/Restro.png")}
         />
         <AboutMe id="about" />
         <SkillCard id="skills" />
